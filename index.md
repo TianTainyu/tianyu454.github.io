@@ -1,20 +1,38 @@
 ---
 layout: default
-title: Tao Gong
+title: Tianyu Cheng
 ---
 
 <div class="header">
-  <h1>Tao Gong</h1>
-  <p class="subtitle">PhD Student, University of Western Ontario</p>
+  <h1>Tianyu Cheng</h1>
+  <p class="subtitle">Postdoctoral Researcher, York University</p>
 </div>
 
 <div class="content">
   <section class="intro">
-    <p>I am a PhD student under the supervision of Matthias Franz at the University of Western Ontario in Canada. 
-    Before that I obtained my Bachelor's and Master's degrees under the supervision of Xu'an Zhao at Beijing Normal University in China.</p>
-    <p>I am interested in algebraic topology and homotopy theory. I am currently working in toric topology.</p>
-    <p>See my CV <a href="/assets/files/TaoGong_CV.pdf" target="_blank" rel="noopener noreferrer">here</a>.</p>
+    <p>
+      I am a Postdoctoral Researcher under the supervision of <strong>Prof. Jianhong Wu</strong> 
+      at <strong>York University</strong>, Canada. 
+      Before that, I completed my Ph.D. in Applied Mathematics at the 
+      <strong>University of Western Ontario</strong>, where I was supervised by 
+      <strong>Prof. Xingfu Zou</strong>.
+    </p>
 
+    <p>
+      My research lies broadly in <strong>Applied Mathematics</strong>, with a focus on:
+    </p>
+
+    <ul>
+      <li>Mathematical biology</li>
+      <li>Infectious disease modelling</li>
+      <li>Dynamical systems</li>
+      <li>Delay differential equations</li>
+    </ul>
+
+    <p>
+      You can find my most recent CV 
+      <a href="/assets/files/Tianyu_CV_sta.pdf" target="_blank" rel="noopener noreferrer">here</a>.
+    </p>
   </section>
 
   <section class="navigation">

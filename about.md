@@ -1,17 +1,28 @@
 ---
 layout: default
-title: Tao Gong
-permalink: /
+title: About
+permalink: /about/
 ---
+
 
 <div class="intro">
   <div class="intro-text">
-    I am a PhD student under the supervision of Matthias Franz at the University of Western Ontario in Canada. Before that I got the Bachelor's and Master's degrees under the supervision of Xu'an Zhao at Beijing Normal University in China.
+    I am a postdoctoral researcher under the supervision of Jianhong Wu at York University, Canada.
+    Before that, I completed my PhD under the supervision of Xingfu Zou at the University of Western Ontario.
+    Previously, I obtained my Bachelor’s and Master’s degrees at Beijing Normal University under the supervision of Xu'an Zhao.
   </div>
+
   <div class="intro-image">
-    ![Profile Photo](/assets/images/profile.jpg) <!-- Add your image -->
+    ![Profile Photo](/assets/images/profile.jpg)
   </div>
 </div>
+
+## Research Interests
+
+- Mathematical biology  
+- Infectious disease modelling  
+- Dynamical systems  
+- Applied mathematics  
 
 ## Papers
 
@@ -31,9 +42,7 @@ permalink: /
 ## Contact
 
 <div class="contact">
-  Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+  Email:
+  <a href="mailto:tianyu45@yorku.ca">tianyu45@yorku.ca</a>,
+  <a href="mailto:tchen454@uwo.ca">tchen454@uwo.ca</a>
 </div>
-
-
-
- <!-- Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/) -->
