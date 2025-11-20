@@ -4,22 +4,24 @@
   <meta charset="utf-8">
   <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Link to your stylesheet -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+  <!-- SEO + Meta Tags -->
+  <meta name="description" content="Personal website of Tianyu Cheng">
+  <meta name="keywords" content="Tianyu Cheng, Portfolio, Personal Website, Projects, Research">
+  <meta name="author" content="Tianyu Cheng">
+
+  <!-- Open Graph tags for social sharing -->
+  <meta property="og:title" content="Tianyu Cheng - Personal Website">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ggttaaoo.github.io">
+  <meta property="og:description" content="Personal website of Tianyu Cheng">
+  <meta property="og:image" content="{{ '/assets/img/profile.jpg' | relative_url }}">
 </head>
+
 <body>
   {{ content }}
 </body>
 </html>
-
-<head>
-  <!-- ... existing tags ... -->
-  <meta name="description" content="Academic website of Tao Gong, PhD student in Mathematics at University of Western Ontario">
-  <meta name="keywords" content="Tao Gong, Mathematics, UWO, Western University, University of Western Ontario, Algebraic Topology, Research">
-  <meta name="author" content="Tao Gong">
-  
-  <!-- Open Graph tags for social sharing -->
-  <meta property="og:title" content="Tao Gong - Mathematics Researcher">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://ggttaaoo.github.io">
-  <meta property="og:description" content="Academic website of Tao Gong, Mathematics PhD student">
-</head>

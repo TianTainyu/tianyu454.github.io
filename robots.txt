@@ -1,3 +1,15 @@
 User-agent: *
 Allow: /
-Sitemap: https://ggttaaoo.github.io/sitemap.xml
+
+# Block junk pages from indexing
+Disallow: /assets/
+Disallow: /files/
+Disallow: /images/
+
+# Allow important pages
+Allow: /about/
+Allow: /papers/
+Allow: /projects/
+Allow: /programming/
+
+Sitemap: https://tianyu454.github.io/sitemap.xml

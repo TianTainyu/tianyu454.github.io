@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Tianyu Cheng
+permalink: /
 ---
+
 
 <div class="header">
   <h1>Tianyu Cheng</h1>
@@ -47,6 +49,6 @@ title: Tianyu Cheng
   <section class="contact">
     <h2>Contact</h2>
     <p>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-    <p>Office: MC275D</p>
+    <p>Office: kismen building 263</p>
   </section>
 </div>
