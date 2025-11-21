@@ -1,18 +1,36 @@
 ---
 layout: default
-title: Presentations
+title: Publications
 ---
 
-<h2>Presentations</h2>
+<h1>Journal Papers</h1>
 
-<ul class="presentation-list">
-  {% for pres in site.data.presentations %}
-  <li class="presentation-item">
-    <strong>{{ pres.type }}</strong><br>
-    {{ pres.event }}, {{ pres.location }}<br>
-    <em>{{ pres.date }}</em>
-  </li>
-  {% endfor %}
-</ul>
+{% for paper in site.data.publications %}
+  {% if paper.journal %}
+    <div class="pub-item">
+      <strong>{{ paper.title }}</strong><br>
+      {{ paper.authors }}<br>
+      <em>{{ paper.journal }}</em>, {{ paper.year }}<br>
+      {% if paper.DOI %}
+        <a href="https://doi.org/{{ paper.DOI }}">DOI</a>
+      {% endif %}
+    </div>
+    <br>
+  {% endif %}
+{% endfor %}
 
-<p><a href="/">← Back to Home</a></p>
+<h1>Preprints</h1>
+
+{% for paper in site.data.publications %}
+  {% if paper.preprint %}
+    <div class="pub-item">
+      <strong>{{ paper.title }}</strong><br>
+      {{ paper.authors }}<br>
+      {{ paper.preprint }}, {{ paper.year }}<br>
+      {% if paper.link %}
+        <a href="{{ paper.link }}">Link</a>
+      {% endif %}
+    </div>
+    <br>
+  {% endif %}
+{% endfor %}
