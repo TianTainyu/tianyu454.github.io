@@ -4,50 +4,95 @@ title: Tianyu Cheng
 permalink: /
 ---
 
+<style>
+  body {
+    background-image: url('/assets/images/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(255, 255, 255, 0.65);
+    z-index: -1;
+  }
+
+  .header {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  .header h1 {
+    font-size: 2.4rem;
+    margin-bottom: 5px;
+  }
+
+  .subtitle {
+    font-size: 1.15rem;
+    color: #666;
+    font-weight: 300;
+  }
+
+  .content {
+    max-width: 760px;
+    margin: auto;
+    line-height: 1.75;
+    font-size: 1.06rem;
+    color: #333;
+  }
+
+  section {
+    margin-bottom: 42px;
+  }
+
+  .navigation ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .navigation li {
+    margin-bottom: 12px;
+    font-size: 1.12rem;
+  }
+
+  .navigation a:hover {
+    color: #005fcc;
+  }
+
+  .contact a {
+    color: #005fcc;
+    text-decoration: none;
+  }
+
+  .contact a:hover {
+    text-decoration: underline;
+  }
+</style>
+
 <div class="header">
   <h1>Tianyu Cheng</h1>
-  <p class="subtitle">Postdoctoral Researcher, York University</p>
+  <p class="subtitle">Postdoctoral Researcher · York University</p>
 </div>
 
 <div class="content">
-  <section class="intro">
-    <p>
-      I am a Postdoctoral Researcher under the supervision of <strong>Prof. Jianhong Wu</strong> 
-      at <strong>York University</strong>, Canada. 
-      Before that, I completed my Ph.D. in Applied Mathematics at the 
-      <strong>University of Western Ontario</strong>, where I was supervised by 
-      <strong>Prof. Xingfu Zou</strong>.
-    </p>
 
-    <p>
-      My research lies broadly in <strong>Applied Mathematics</strong>, with a focus on:
-    </p>
-
-    <ul>
-      <li>Mathematical biology</li>
-      <li>Infectious disease modelling</li>
-      <li>Dynamical systems</li>
-      <li>Delay differential equations</li>
-    </ul>
-
-    <p>
-      You can find my most recent CV 
-      <a href="/assets/files/Tianyu_CV_sta.pdf" target="_blank" rel="noopener noreferrer">here</a>.
-    </p>
-  </section>
-
-  <section class="navigation">
-    <h2>Explore</h2>
-    <ul style="list-style: none; padding-left: 0;">
-      <li><a href="/papers.html">📄 Papers</a></li>
-      <li><a href="/programming.html">💻 Programming</a></li>
-      <li><a href="/presentations.html">🎤 Presentations</a></li>
-    </ul>
-  </section>
-
+  <!-- Contact Section -->
   <section class="contact">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-  
+    <p>
+      ✉️ <strong>Primary:</strong> 
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    </p>
+    <p>
+      📮 <strong>Secondary:</strong> 
+      <a href="mailto:your.second.email@example.com">your.second.email@example.com</a>
+    </p>
   </section>
+
 </div>
