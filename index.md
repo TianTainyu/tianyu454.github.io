@@ -4,7 +4,6 @@ title: Tianyu Cheng
 permalink: /
 ---
 
-
 <div class="header">
   <h1>Tianyu Cheng</h1>
   <p class="subtitle">Postdoctoral Researcher, York University</p>
@@ -43,6 +42,7 @@ permalink: /
       <li><a href="/papers.html">📄 Papers</a></li>
       <li><a href="/projects.html">🧩 Projects</a></li>
       <li><a href="/programming.html">💻 Programming</a></li>
+      <li><a href="/presentations.html">🎤 Presentations</a></li>
     </ul>
   </section>
 
