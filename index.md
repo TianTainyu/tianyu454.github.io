@@ -40,7 +40,6 @@ permalink: /
     <h2>Explore</h2>
     <ul style="list-style: none; padding-left: 0;">
       <li><a href="/papers.html">📄 Papers</a></li>
-      <li><a href="/projects.html">🧩 Projects</a></li>
       <li><a href="/programming.html">💻 Programming</a></li>
       <li><a href="/presentations.html">🎤 Presentations</a></li>
     </ul>
