@@ -14,11 +14,18 @@ title: Papers
     {% for paper in pubs %}
     <li class="paper">
       <span class="paper-authors">{{ paper.authors }}.</span>
-      <span class="paper-title">{{ paper.title }}.</span>
+      <span class="paper-title"><strong>{{ paper.title }}</strong>.</span>
+
+      {% if paper.journal %}
+      <span class="paper-journal"><em>{{ paper.journal }}</em>.</span>
+      {% endif %}
+
       <span class="paper-year">{{ paper.year }}.</span>
+
       {% if paper.doi %}
       <a href="https://doi.org/{{ paper.doi }}">DOI</a>.
       {% endif %}
+
       {% if paper.pdf %}
       <a href="{{ paper.pdf }}">[PDF]</a>
       {% endif %}
@@ -35,10 +42,13 @@ title: Papers
 <ol class="paper-list">
   {% for p in preprints %}
   <li class="paper">
-    <strong>{{ p.title }}</strong>.  
-    {{ p.authors }}.  
-    {{ p.year }}.  
+    <span class="paper-title"><strong>{{ p.title }}</strong>.</span>
+    <span class="paper-authors">{{ p.authors }}.</span>
+    <span class="paper-year">{{ p.year }}.</span>
+
+    {% if p.preprint %}
     <a href="https://arxiv.org/abs/{{ p.preprint }}" target="_blank">arXiv:{{ p.preprint }}</a>
+    {% endif %}
   </li>
   {% endfor %}
 </ol>
@@ -51,9 +61,9 @@ title: Papers
 <ol class="paper-list">
   {% for n in notes %}
   <li class="paper">
-    <strong>{{ n.title }}</strong>.  
-    {{ n.authors }}.  
-    {{ n.year }}.  
+    <span class="paper-title"><strong>{{ n.title }}</strong>.</span>
+    <span class="paper-authors">{{ n.authors }}.</span>
+    <span class="paper-year">{{ n.year }}.</span>
     {% if n.file_link %}
       <a href="{{ n.file_link }}" target="_blank">[PDF]</a>
     {% endif %}
@@ -69,14 +79,12 @@ title: Papers
 <ol class="paper-list">
   {% for t in theses %}
   <li class="paper">
-    <strong>{{ t.title }}</strong>.  
-    {{ t.degree }} — {{ t.authors }}.  
-    {{ t.year }}.
+    <span class="paper-title"><strong>{{ t.title }}</strong>.</span>
+    <span class="paper-authors">{{ t.degree }} — {{ t.authors }}.</span>
+    <span class="paper-year">{{ t.year }}.</span>
   </li>
   {% endfor %}
 </ol>
 {% endif %}
-
-
 
 <p><a href="/">← Back to Home</a></p>
