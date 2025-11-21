@@ -81,9 +81,7 @@ permalink: /about/
     <strong>Prof. Jianhong Wu</strong> at York University, Canada.
     Before that, I completed my PhD under the supervision of 
     <strong>Prof. Xingfu Zou</strong> at the University of Western Ontario.
-    I previously obtained my Bachelor’s and Master’s degrees at 
-    <strong>Beijing Normal University</strong> under the supervision of 
-    <strong>Prof. Xu'an Zhao</strong>.
+  
   </div>
 
   <div class="intro-image">
