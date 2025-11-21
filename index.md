@@ -108,7 +108,7 @@ permalink: /
   <section class="navigation">
     <h2>Explore</h2>
     <ul>
-      <li>📘 <a href="/papers/">Publications</a></li>
+
       <li>🧪 <a href="/programming/">Programming</a></li>
       <li>🎙️ <a href="/presentations/">Presentations</a></li>
       <li>👤 <a href="/about/">About Me</a></li>
