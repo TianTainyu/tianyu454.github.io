@@ -85,7 +85,7 @@ permalink: /about/
 
 ---
 ## 💻 Programming
-<h2>Programming Projects</h2>
+<h2>Skills</h2>
 <p>
 I use programming languages such as <strong>Mathematica</strong>, <strong>Python</strong>, and <strong>C++</strong>.
 I also have experience with <strong>MATLAB</strong> and <strong>MAPLE</strong>.
