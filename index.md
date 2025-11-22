@@ -6,7 +6,7 @@ permalink: /
 
 <style>
   body {
-    background-color: #bedef5ff;
+    background-color: #3e7aa5ff;
   }
 
   .header {
@@ -146,6 +146,9 @@ permalink: /
     <h2>Explore</h2>
     <ul>
       <li>👤 <a href="/about/">About Me</a></li>
+      <li>📄 <a href="/papers.html">Papers</a></li>
+      <li>🧩 <a href="/projects.html">Projects</a></li>
+      <li>💻 <a href="/programming.html">Programming</a></li>
     </ul>
   </section>
 
