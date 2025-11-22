@@ -27,8 +27,8 @@ permalink: /about/
   .papers { margin-top: 20px; }
   .paper { margin-bottom: 18px; padding-bottom: 14px; border-bottom: 1px solid #74a9d2ff; }
   .paper-title { font-weight: 600; font-size: 1.05rem; }
-  .paper-authors { color: #555; margin-top: 2px; }
-  .paper-meta { color: #777; font-size: 0.95rem; margin-top: 2px; }
+  .paper-authors { color: #98b2e6ff; margin-top: 2px; }
+  .paper-meta { color: #7fb5dbff; font-size: 0.95rem; margin-top: 2px; }
   .contact a { color: #005fcc; text-decoration: none; }
   .contact a:hover { text-decoration: underline; }
 </style>
@@ -41,7 +41,7 @@ permalink: /about/
     <strong>Prof. Xingfu Zou</strong> at the University of Western Ontario.
   </div>
   <div class="intro-image">
-    <img src="/assets/images/profile.jpg" alt="Profile Photo">
+    <img src="/assets/images/myprofile.jpg" alt="Profile Photo">
   </div>
 </div>
 
