@@ -67,7 +67,7 @@ permalink: /about/
     <div class="paper-meta">
       {% if pub.journal %}{{ pub.journal }}{% endif %}
       {% if pub.year %}, {{ pub.year }}{% endif %}
-      {% if pub.DOI %} · <a href="https://doi.org/{{ pub.DOI }}" target="_blank">DOI</a>{% endif %}
+      {% if pub.DOI %} · <a href="https://doi.org/{{ pub.DOI }}" target="_blank">Available here</a>{% endif %}
     </div>
   </div>
 {% endfor %}
