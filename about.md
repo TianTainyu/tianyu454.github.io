@@ -22,7 +22,7 @@ permalink: /about/
     width: 200px;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0 4px 14px rgba(89, 139, 214, 0.12);
+    box-shadow: 0 4px 14px rgba(52, 98, 168, 0.12);
   }
   .papers { margin-top: 20px; }
   .paper { margin-bottom: 18px; padding-bottom: 14px; border-bottom: 1px solid #010305ff; }
