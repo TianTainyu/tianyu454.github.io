@@ -84,7 +84,7 @@ permalink: /about/
 {% endfor %}
 </ul>
 
----
+
 
 ## 💻 Skills
 
