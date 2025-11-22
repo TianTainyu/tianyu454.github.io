@@ -84,6 +84,7 @@ permalink: /about/
 </ul>
 
 ---
+
 ## 💻 Skills
 
 <p>
