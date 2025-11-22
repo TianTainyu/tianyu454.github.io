@@ -74,7 +74,6 @@ permalink: /about/
 </div>
 
 ---
-
 ## 🎤 Presentations
 <ul>
 {% for talk in site.data.presentations %}
