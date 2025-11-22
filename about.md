@@ -75,6 +75,7 @@ permalink: /about/
 
 
 ## 🎤 Presentations
+
 <ul>
 {% for talk in site.data.presentations %}
   <li>
