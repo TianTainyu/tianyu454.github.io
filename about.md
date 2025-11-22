@@ -22,14 +22,14 @@ permalink: /about/
     width: 200px;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+    box-shadow: 0 4px 14px rgba(89, 139, 214, 0.12);
   }
   .papers { margin-top: 20px; }
-  .paper { margin-bottom: 18px; padding-bottom: 14px; border-bottom: 1px solid #74a9d2ff; }
+  .paper { margin-bottom: 18px; padding-bottom: 14px; border-bottom: 1px solid #010305ff; }
   .paper-title { font-weight: 600; font-size: 1.05rem; }
-  .paper-authors { color: #98b2e6ff; margin-top: 2px; }
-  .paper-meta { color: #7fb5dbff; font-size: 0.95rem; margin-top: 2px; }
-  .contact a { color: #005fcc; text-decoration: none; }
+  .paper-authors { color: #020408ff; margin-top: 2px; }
+  .paper-meta { color: #01060aff; font-size: 0.95rem; margin-top: 2px; }
+  .contact a { color: #010409ff; text-decoration: none; }
   .contact a:hover { text-decoration: underline; }
 </style>
 
